@@ -4,13 +4,15 @@
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 @*@Html.Partial("MenuBar")*@
 <script>
     window.onunload = OnClose;
 </script>
+@Html.ValidationMessageFor(n => n.Name);
 
 <h2>Новый</h2>
-
+<div>@ViewBag.NameConsist</div>
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
