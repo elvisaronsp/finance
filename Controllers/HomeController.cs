@@ -8,15 +8,18 @@ using Finance.Models;
 
 namespace Finance.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class HomeController : Controller
     {
 
         ApplicationDbContext Db = new ApplicationDbContext();
 
-        [AllowAnonymous]
+         
         public ActionResult Index()
         {
+            if (!User.IsInRole("Developer"))
+                return RedirectToAction("Index", "PaymentStatements");
+
             return View();
         }
 

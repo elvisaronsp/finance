@@ -13,7 +13,7 @@ using Finance.Models;
 
 namespace Finance2.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
@@ -45,6 +45,9 @@ namespace Finance2.Controllers
         {
             get
             {
+                //if (_userManager == null)
+                //    _userManager = HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
+
                 return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
             }
             private set
@@ -137,7 +140,7 @@ namespace Finance2.Controllers
 
         //
         // GET: /Account/Register
-        [AllowAnonymous]
+        [Authorize(Roles = "Developer")]
         public ActionResult Register()
         {
             return View();
@@ -146,7 +149,7 @@ namespace Finance2.Controllers
         //
         // POST: /Account/Register
         [HttpPost]
-        [AllowAnonymous]
+        [Authorize(Roles = "Developer")]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
@@ -156,6 +159,7 @@ namespace Finance2.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    UserManager.AddToRole(user.Id, "Employer");
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
                     
                     // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
