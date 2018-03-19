@@ -8,7 +8,7 @@ using Finance.Models;
 
 namespace Finance.Controllers
 {
-    [Authorize]
+    //[Authorize]  // Temporary commented. To do: Uncomment !!!
     public class HomeController : Controller
     {
 
@@ -17,8 +17,8 @@ namespace Finance.Controllers
          
         public ActionResult Index()
         {
-            if (!User.IsInRole("Developer"))
-                return RedirectToAction("Index", "PaymentStatements");
+            //if (!User.IsInRole("Developer"))
+            //    return RedirectToAction("Index", "PaymentStatements"); // Temporary commented. To do: Uncomment !!!
 
             return View();
         }
