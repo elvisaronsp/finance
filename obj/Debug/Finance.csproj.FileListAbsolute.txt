@@ -356,7 +356,6 @@ D:\VisualStudioProjects\Finance\Finance\bin\Microsoft.Owin.Security.OAuth.xml
 D:\VisualStudioProjects\Finance\Finance\bin\Microsoft.Owin.Security.Google.xml
 D:\VisualStudioProjects\Finance\Finance\bin\Microsoft.Owin.Security.Twitter.xml
 D:\VisualStudioProjects\Finance\Finance\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.csprojResolveAssemblyReference.cache
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.First.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.Test.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.Counterparties.resources
@@ -374,12 +373,19 @@ D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.IntToLongId
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.LongNullabelIdOrest.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.DiscountToNulable.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.AddNullabelToOwneshipTypeId.resources
-D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.csproj.GenerateResource.Cache
-D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.csproj.CoreCompileInputs.cache
-D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.dll
-D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.pdb
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.AddRequiredAttributesToIncoming.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.AddRequiredAttributesToIncoming2.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.InvoiceData0Available.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.CounterpartySearchUnionModel.resources
+<<<<<<< HEAD
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.update200318.resources
+=======
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.UserRoles.resources
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.csproj.GenerateResource.Cache
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.dll
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.pdb
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.csprojResolveAssemblyReference.cache
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.CheckPayment.resources
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.PaymentStatement_changeDBCntext.resources
+>>>>>>> paymentSatementOnly
