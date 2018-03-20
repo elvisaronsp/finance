@@ -319,6 +319,10 @@
     <Compile Include="Migrations\201803171326233_CheckPayment.Designer.cs">
       <DependentUpon>201803171326233_CheckPayment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803201657201_PaymentStatement_changeDBCntext.cs" />
+    <Compile Include="Migrations\201803201657201_PaymentStatement_changeDBCntext.Designer.cs">
+      <DependentUpon>201803201657201_PaymentStatement_changeDBCntext.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -571,6 +575,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803171326233_CheckPayment.resx">
       <DependentUpon>201803171326233_CheckPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803201657201_PaymentStatement_changeDBCntext.resx">
+      <DependentUpon>201803201657201_PaymentStatement_changeDBCntext.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

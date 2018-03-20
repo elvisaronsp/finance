@@ -384,3 +384,4 @@ D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.dll
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.pdb
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.csprojResolveAssemblyReference.cache
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.CheckPayment.resources
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.PaymentStatement_changeDBCntext.resources
