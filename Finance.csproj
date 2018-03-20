@@ -310,6 +310,10 @@
     <Compile Include="Migrations\201802151914581_CounterpartySearchUnionModel.Designer.cs">
       <DependentUpon>201802151914581_CounterpartySearchUnionModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803201415560_update20.03.18.cs" />
+    <Compile Include="Migrations\201803201415560_update20.03.18.Designer.cs">
+      <DependentUpon>201803201415560_update20.03.18.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -548,6 +552,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802151914581_CounterpartySearchUnionModel.resx">
       <DependentUpon>201802151914581_CounterpartySearchUnionModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803201415560_update20.03.18.resx">
+      <DependentUpon>201803201415560_update20.03.18.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

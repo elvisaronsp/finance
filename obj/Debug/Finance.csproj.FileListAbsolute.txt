@@ -382,3 +382,4 @@ D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.AddRequired
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.AddRequiredAttributesToIncoming2.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.InvoiceData0Available.resources
 D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.CounterpartySearchUnionModel.resources
+D:\VisualStudioProjects\Finance\Finance\obj\Debug\Finance.Migrations.update200318.resources

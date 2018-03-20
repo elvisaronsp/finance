@@ -8,7 +8,7 @@ using Finance.Models;
 
 namespace Finance.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class HomeController : Controller
     {
 
